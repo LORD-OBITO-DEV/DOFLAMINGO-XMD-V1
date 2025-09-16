@@ -17,7 +17,7 @@ const credsPath = path.join(__dirname, 'auth_info_baileys/creds.json');
 
 const tempDir = path.join(__dirname, '.temp_bot_update');
 
-const repoURL = 'https://github.com/Danscot/DOFLAMINGO-XMD-V1'; // replace this!
+const repoURL = 'https://github.com/LORD-OBITO-DEV/DOFLAMINGO-XMD-V1.git'; // replace this!
 
 
 // Utility: Recursively copy files/folders (excluding .git)
