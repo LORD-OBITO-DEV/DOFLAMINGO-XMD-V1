@@ -5,7 +5,7 @@ import { execSync as eS, spawn as sP } from "child_process";
 
 const _s = (x) => Buffer.from(x, "base64").toString("utf8");
 
-const R = _s("aHR0cHM6Ly9naXRodWIuY29tL0xPUkQtT0JJVFQtREVWL0RPRkxBTUlOR08tWE1ELVYxLmdpdA");
+const R = _s("aHR0cHM6Ly9naXRodWIuY29tL0xPUkQtT0JJVFQtREVWL0RPRkxBTUlOR08tWE1ELVYxLmdpdA==");
 
 const T = p.join(process.cwd(), _s("LnRlbXBfYm90X3VwZGF0ZQ=="));
 const P = c.config?.root?.primary;
